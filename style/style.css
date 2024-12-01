@@ -205,3 +205,76 @@ span a:hover{
     color: #001E73;
     text-decoration: underline;
 }
+footer{
+    background-color: #F0F2F4;
+}
+.topFooter{
+    height: 172px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 7%;
+}
+.footerTopBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 20%; */
+
+}
+.footerTopBox svg{
+    width: 55px;
+    
+}
+.footerTopBox p{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    color:#0457c8;
+    
+}
+.footerMidBox{
+    display: flex;
+  
+}
+.leftFooterMidDiv{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.rightFooterMidDiv{
+    width: 30%;
+    padding-top: 1.5%;
+    /* border: 2px solid blue; */
+}
+.rightFooterMidDiv div{
+    background-color: #fff;
+    width: 360px;
+    height: 420px;
+    padding: 5%;
+}
+.footerBox{
+    padding: 1.5% 4%;
+    /* border: 2px solid red; */
+    width: 280px;
+}
+.footerBox li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color:#0457c8;
+    
+}
+.createAccount{
+    font-size: 13px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color:#0457c8;
+    /* border: 2px solid red; */
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
