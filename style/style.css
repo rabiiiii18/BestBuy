@@ -244,15 +244,16 @@ footer{
     /* border: 2px solid red; */
 }
 .rightFooterMidDiv{
-    width: 30%;
+    width: 33%;
     padding-top: 1.5%;
-    /* border: 2px solid blue; */
+   
 }
-.rightFooterMidDiv div{
+.contactBox{
     background-color: #fff;
     width: 360px;
     height: 420px;
     padding: 5%;
+    margin-right: 3%;
 }
 .footerBox{
     padding: 1.5% 4%;
@@ -272,9 +273,73 @@ footer{
     font-style: normal;
     font-weight: 400;
     color:#0457c8;
-    /* border: 2px solid red; */
     padding-bottom: 5%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.deals{
+    margin-top: 6%;
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 4%;
+
+}
+.contactInput{
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 18px;
+    /* margin-top: 10px; */
+    font-style: normal;
+    /* border: 2px solid red; */
+}
+.signIn{
+    padding: 8px 20px;
+    background-color: #0457c8;
+    color: #fff;
+    font-size: 13px;
+    line-height: 17px;
+    border-radius: 5px;
+    border: none;
+}
+.contctInputButton{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.midBarFooter{
+    display: flex;
+    margin-top: 5%;
+}
+.midBarIcon svg{
+    width: 43px;
+    height: 42px;
+
+}
+.midBarRight{
+    display: flex;
+    flex-direction: column;
+}
+.midBarRight span{
+    font-size: 20px;
+    line-height: 26px;
+    color: #040C13;
+
+}
+.midBarRight a{
+    font-size: 13px;
+    line-height: 17px;
+    color: #0457c8;
+    text-decoration: none;
+}
+.footerIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.footerIcon img{
+    width: 32px;
+    height: 32px;
 }
